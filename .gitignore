@@ -1,0 +1,12 @@
+/node_modules
+/artifacts
+/dist
+package.cache.json
+yarn-error.log
+
+.idea
+*.iml
+coverage
+/.scannerwork
+.DS_Store
+db.json
