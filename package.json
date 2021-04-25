@@ -1,0 +1,17 @@
+{
+  "name": "local-dev-server-seed",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "scripts": {
+    "dataServer": "node server.js",
+    "dataServer:debug": "nodemon --watch server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "morgan": "^1.10.0"
+  }
+}
